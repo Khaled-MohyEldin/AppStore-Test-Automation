@@ -1,9 +1,9 @@
-# AppStore Test Automation 🚀
+# AppStore Test Automation
 
 This project automates testing for the AppStore mobile application using **Appium**, **Java**, and **TestNG**.
 It supports Android devices and is designed for scalable, maintainable test execution.
 
-## 📦 Tech Stack
+## Tech Stack
 
 - **Java**
 - **Appium 2.x**
@@ -11,7 +11,7 @@ It supports Android devices and is designed for scalable, maintainable test exec
 - **Maven**
 - **Android Emulator / Real Device**
 
-## 🧪 Features
+## Features
 
 - Start and stop Appium server programmatically
 - Dynamic driver configuration via `.properties` file
@@ -20,7 +20,7 @@ It supports Android devices and is designed for scalable, maintainable test exec
 - Clean logging and log filtering support
 - Environment-ready for CI/CD integration
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -43,7 +43,7 @@ It supports Android devices and is designed for scalable, maintainable test exec
    ```
     ipAddress=127.0.0.1
     port=4723
-    driver=uiautomator2```
+    driver=uiautomator2
 
 6. Run tests:  
    ```mvn test -PRegression```
