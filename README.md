@@ -30,28 +30,25 @@ It supports Android devices and is designed for scalable, maintainable test exec
 - Android SDK & emulator setup
 - Maven installed
 
-### Setup
+### Setup  
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/Khaled-MohyEldin/AppStore-Test-Automation.git
+1. Clone the repo:  
+   ```git clone https://github.com/Khaled-MohyEldin/AppStore-Test-Automation.git```
    
-2. Install dependencies:
-    ```bash
-   mvn clean install
+2. Install dependencies:  
+    ```mvn clean install```
 
-4. Configure GlobalData.properties in src/test/resources:
-    in properties file adjust
+4. Configure GlobalData.properties in src/test/resources:  
+    in properties file adjust  
+   ```
     ipAddress=127.0.0.1
     port=4723
-    driver=uiautomator2
+    driver=uiautomator2```
 
-5. Run tests:
-   ```bash
-   mvn test -PRegression
-   mvn test -PSmoke
+6. Run tests:  
+   ```mvn test -PRegression```
+   ```mvn test -PSmoke```
    
-7. See Reults in Allure Reports
-   ```bash
-   allure serve allure-results
+7. See Reults in Allure Reports  
+   ```allure serve allure-results```
 
